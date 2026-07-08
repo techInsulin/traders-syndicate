@@ -4,6 +4,7 @@ import MembershipCard, {
   Details,
   Size,
 } from "@/components/cards/MembershipCard"
+import Footer from "@/components/footer/Footer"
 import Navbar from "@/components/navbar/Navbar"
 import splitStringUsingRegex from "@/utils/splitStringUsingRegex"
 import { motion, useInView } from "framer-motion"
@@ -156,7 +157,7 @@ const Membership = () => {
         viewport={{
           once: true,
         }}
-        className="flex flex-col md:flex-row items-center justify-around space-y-8 md:space-y-0 md:space-x-8"
+        className="flex flex-col md:flex-row items-center justify-around space-y-8 md:space-y-0 md:space-x-8 pb-12"
       >
         <motion.div variants={card}>
           <MembershipCard
@@ -191,6 +192,7 @@ const Membership = () => {
           />
         </motion.div>
       </motion.div>
+      <Footer />
     </div>
   )
 }

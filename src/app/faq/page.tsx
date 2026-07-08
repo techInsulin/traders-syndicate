@@ -1,6 +1,7 @@
 "use client"
 
 import FaqQuesiton from "@/components/dropDown/FaqQuesiton"
+import Footer from "@/components/footer/Footer"
 import Navbar from "@/components/navbar/Navbar"
 import splitStringUsingRegex from "@/utils/splitStringUsingRegex"
 import { motion } from "framer-motion"
@@ -76,7 +77,7 @@ const Faq = () => {
         initial="fadeInRightHidden"
         whileInView="fadeInRightShow"
         viewport={{ once: true }}
-        className="flex flex-col space-y-9 md:space-y-11"
+        className="flex flex-col space-y-9 md:space-y-11 pb-12"
       >
         <motion.div variants={question}>
           <FaqQuesiton
@@ -113,6 +114,7 @@ const Faq = () => {
           />
         </motion.div>
       </motion.div>
+      <Footer />
     </div>
   )
 }

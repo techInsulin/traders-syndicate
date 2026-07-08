@@ -68,9 +68,7 @@ const FaqQuesiton = ({
           }}
         >
           <Image
-            src={
-              "https://tdfrost.github.io/traders-syndicate/icons/down-arrow.svg"
-            }
+            src={"/icons/down-arrow.svg"}
             width={30}
             height={30}
             alt="icon of a downward facing arrow"
