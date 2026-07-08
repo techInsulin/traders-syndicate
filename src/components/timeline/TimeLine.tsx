@@ -36,7 +36,7 @@ const TimeLine = () => {
         >
           <div className="hidden md:flex w-full justify-center mb-24 md:mb-0">
             <Image
-              src="/images/particle-sphere-no-padding.webp"
+              src="https://techinsulin.github.io/traders-syndicate/images/particle-sphere-no-padding.webp"
               width={200}
               height={200}
               alt="image of a sphere made of white particles"
@@ -65,7 +65,7 @@ const TimeLine = () => {
 
           <div className="hidden md:flex w-full justify-center mb-24 md:mb-0">
             <Image
-              src="/images/particle-sphere-no-padding.webp"
+              src="https://techinsulin.github.io/traders-syndicate/images/particle-sphere-no-padding.webp"
               width={200}
               height={200}
               alt="image of a sphere made of white particles"
@@ -136,7 +136,7 @@ const TimeLine = () => {
 
           <div className="hidden md:flex w-full justify-center mb-24 md:mb-0">
             <Image
-              src="/images/particle-sphere-no-padding.webp"
+              src="https://techinsulin.github.io/traders-syndicate/images/particle-sphere-no-padding.webp"
               width={200}
               height={200}
               alt="image of a sphere made of white particles"

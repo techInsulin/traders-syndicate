@@ -15,7 +15,7 @@ const Navbar = () => {
         <div>
           <Link href="/">
             <Image
-              src="/trade-syndicate-logo.svg"
+              src="https://techinsulin.github.io/traders-syndicate/trade-syndicate-logo.svg"
               width={50}
               height={50}
               alt="Traders Syndicate logo"

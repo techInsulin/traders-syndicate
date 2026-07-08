@@ -10,6 +10,7 @@ import splitStringUsingRegex from "@/utils/splitStringUsingRegex"
 import { motion, useInView } from "framer-motion"
 import Link from "next/link"
 import React, { useRef } from "react"
+import { useEffect } from "react"
 
 const cardOne: Details = {
   name: "Free",
@@ -60,6 +61,9 @@ const cardThree: Details = {
 const headlineText = "Join The Syndicate"
 
 const Membership = () => {
+  useEffect(() => {
+    document.title = "Memberships"
+  }, [])
   const ref = useRef(null)
   const isInView = useInView(ref)
 

@@ -6,6 +6,7 @@ import Navbar from "@/components/navbar/Navbar"
 import splitStringUsingRegex from "@/utils/splitStringUsingRegex"
 import { motion } from "framer-motion"
 import React from "react"
+import { useEffect } from "react"
 
 const textVariants = {
   hidden: { opacity: 0 },
@@ -49,6 +50,9 @@ const question = {
 const headlinetext = "FAQ"
 
 const Faq = () => {
+  useEffect(() => {
+    document.title = "FAQs"
+  }, [])
   const headlineCharacters = splitStringUsingRegex(headlinetext)
 
   return (
@@ -81,36 +85,22 @@ const Faq = () => {
       >
         <motion.div variants={question}>
           <FaqQuesiton
-            question="Tu pregunta amigo?"
-            answer="Lorizzle ipsizzle dolor sit amizzle, hizzle adipiscing elit. Bow wow wow sapien velizzle, aliquet volutpizzle, suscipit quizzle, gravida vizzle, i'm in the shizzle. Hizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle tortizzle. Nizzle erizzle. Fusce izzle dolizzle dapibus tempizzle break yo neck, yall. Maurizzle pellentesque nibh gizzle turpizzle. I saw beyonces tizzles and my pizzle went crizzle gangster dizzle. Cool you son of a bizzle rhoncizzle shiznit. In hac pot platea dictumst. Ass dapibizzle. Things tellus urna, pretizzle crackalackin, mattizzle ac, eleifend vitae, nunc. Mammasay mammasa mamma oo sa suscipizzle. Integer sempizzle velit sizzle dope."
+            question="What is Traders Syndicate?"
+            answer="Traders Syndicate is a small trading-focused project built to share market ideas, tools, and resources in a simple, accessible way."
           />
         </motion.div>
 
         <motion.div variants={question}>
           <FaqQuesiton
-            question="Tu pregunta amigo?"
-            answer="Lorizzle ipsizzle dolor sit amizzle, hizzle adipiscing elit. Bow wow wow sapien velizzle, aliquet volutpizzle, suscipit quizzle, gravida vizzle, i'm in the shizzle. Hizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle tortizzle. Nizzle erizzle. Fusce izzle dolizzle dapibus tempizzle break yo neck, yall. Maurizzle pellentesque nibh gizzle turpizzle. I saw beyonces tizzles and my pizzle went crizzle gangster dizzle. Cool you son of a bizzle rhoncizzle shiznit. In hac pot platea dictumst. Ass dapibizzle. Things tellus urna, pretizzle crackalackin, mattizzle ac, eleifend vitae, nunc. Mammasay mammasa mamma oo sa suscipizzle. Integer sempizzle velit sizzle dope."
+            question="Is this financial advice?"
+            answer="No. The content on this site is for educational and informational purposes only. Always do your own research before making any trading or investing decisions."
           />
         </motion.div>
 
         <motion.div variants={question}>
           <FaqQuesiton
-            question="Tu pregunta amigo?"
-            answer="Lorizzle ipsizzle dolor sit amizzle, hizzle adipiscing elit. Bow wow wow sapien velizzle, aliquet volutpizzle, suscipit quizzle, gravida vizzle, i'm in the shizzle. Hizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle tortizzle. Nizzle erizzle. Fusce izzle dolizzle dapibus tempizzle break yo neck, yall. Maurizzle pellentesque nibh gizzle turpizzle. I saw beyonces tizzles and my pizzle went crizzle gangster dizzle. Cool you son of a bizzle rhoncizzle shiznit. In hac pot platea dictumst. Ass dapibizzle. Things tellus urna, pretizzle crackalackin, mattizzle ac, eleifend vitae, nunc. Mammasay mammasa mamma oo sa suscipizzle. Integer sempizzle velit sizzle dope."
-          />
-        </motion.div>
-
-        <motion.div variants={question}>
-          <FaqQuesiton
-            question="Tu pregunta amigo?"
-            answer="Lorizzle ipsizzle dolor sit amizzle, hizzle adipiscing elit. Bow wow wow sapien velizzle, aliquet volutpizzle, suscipit quizzle, gravida vizzle, i'm in the shizzle. Hizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle tortizzle. Nizzle erizzle. Fusce izzle dolizzle dapibus tempizzle break yo neck, yall. Maurizzle pellentesque nibh gizzle turpizzle. I saw beyonces tizzles and my pizzle went crizzle gangster dizzle. Cool you son of a bizzle rhoncizzle shiznit. In hac pot platea dictumst. Ass dapibizzle. Things tellus urna, pretizzle crackalackin, mattizzle ac, eleifend vitae, nunc. Mammasay mammasa mamma oo sa suscipizzle. Integer sempizzle velit sizzle dope."
-          />
-        </motion.div>
-
-        <motion.div variants={question}>
-          <FaqQuesiton
-            question="Tu pregunta amigo?"
-            answer="Lorizzle ipsizzle dolor sit amizzle, hizzle adipiscing elit. Bow wow wow sapien velizzle, aliquet volutpizzle, suscipit quizzle, gravida vizzle, i'm in the shizzle. Hizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle tortizzle. Nizzle erizzle. Fusce izzle dolizzle dapibus tempizzle break yo neck, yall. Maurizzle pellentesque nibh gizzle turpizzle. I saw beyonces tizzles and my pizzle went crizzle gangster dizzle. Cool you son of a bizzle rhoncizzle shiznit. In hac pot platea dictumst. Ass dapibizzle. Things tellus urna, pretizzle crackalackin, mattizzle ac, eleifend vitae, nunc. Mammasay mammasa mamma oo sa suscipizzle. Integer sempizzle velit sizzle dope."
+            question="How can I stay updated?"
+            answer="Updates will be added to the site as the project grows. Check back for new resources, market notes, and future improvements."
           />
         </motion.div>
       </motion.div>
